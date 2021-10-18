@@ -34,6 +34,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding-top: 44px;
 }
 
 .navbar {
@@ -131,8 +132,22 @@
 }
 
 .btn--play {
-  padding: 0 18px 0 20px;
+  position: relative;
+  width: 32px;
+  padding: 0;
   background: #df6951;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.btn--play::after {
+  content: 'Play Demo';
+  position: absolute;
+  font-size: .8em;
+  text-transform: none;
+  left: 38px;
+  white-space: nowrap;
+  color: #000;
 }
 
 .dropdown {
@@ -230,7 +245,7 @@
 
 .hero__heading {
   font-family: 'Volkhov', serif;
-  font-size: 3em;
+  font-size: 2.8em;
   margin: 16px 0;
 }
 
