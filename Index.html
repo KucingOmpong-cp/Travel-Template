@@ -10,25 +10,25 @@
   <body>
     <div class="container">
       <section class="hero">
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
           <div class="navbar__logo">
-            <img src="assets/images/Logo.svg" alt="" height="32">
+            <img src="assets/images/Logo.svg" alt="" height="24">
           </div>
           <ul class="navbar__menu">
             <li class="navbar__items"><a class="navbar__items-link" href="#">Destinations</a></li>
             <li class="navbar__items"><a class="navbar__items-link" href="#">Hotels</a></li>
-            <li class="navbar__items"><a  href="#">Flights</a></li>
-            <li class="navbar__items"><a href="#">Bookings</a></li>
+            <li class="navbar__items"><a class="navbar__items-link" href="#">Flights</a></li>
+            <li class="navbar__items"><a class="navbar__items-link" href="#">Bookings</a></li>
           </ul>
           <div class="navbar__cta">
             <a class="btn" href="#">Login</a>
             <a href="#" class="btn btn--border">Sign Up</a>
           </div>
-          <ul class="dropdown">
-            <li class="dropdown__language"><a href="#">en</a></li>
-            <li class="dropdown__language"><a href="#">id</a></li>
-          </ul>
-          <div class="burger">
+          <select class="dropdown">
+            <option value="">en</option>
+            <option value="">id</option>
+          </select>
+          <div class="burger" id="burger" onclick="toggleActive()">
             <div class="burger__items">
             </div>
           </div>
@@ -40,7 +40,7 @@
           <div class="hero__desc">
             <h3 class="hero__tagline">best destination around the world</h3>
             <h1 class="hero__heading">Travel, enjoy and live a new and full live</h1>
-            <p class="hero__desc"></p>
+            <p class="hero__desc">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportmen it engrossed listening. Park gate sell they west hard.</p>
             <div class="hero__cta">
               <a href="#" class="btn btn--solid">find out more</a>
               <a href="" class="btn btn--play"><i></i></a>
@@ -49,6 +49,7 @@
         </div>
       </section>
     </div>
-   
+  
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
