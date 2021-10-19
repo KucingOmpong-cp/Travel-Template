@@ -136,6 +136,7 @@
   text-transform: capitalize;
   white-space: nowrap;
   border-radius: 5px;
+  color: #212832;
 }
 
 .btn--border {
@@ -274,7 +275,7 @@
 }
 
 .hero__desc {
-  width: 80%;
+  width: 29em;
   font-size: .6em;
 }
 
@@ -340,6 +341,7 @@
   }
   .navbar__logo {
     width: fit-content;
+    background: none;
     top: 0;
   }
   .navbar__menu {
