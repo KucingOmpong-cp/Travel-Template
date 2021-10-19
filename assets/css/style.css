@@ -117,7 +117,7 @@
   display: flex;
   flex-direction: column;
   width: calc(100% - 32px);
-  bottom: 46px;
+  bottom: 68px;
   color: #212832;
   z-index: 7;
 }
@@ -128,10 +128,6 @@
 
 .navbar.active {
   height: 100vh;
-}
-
-.navbar.active .navbar__cta {
-  bottom: 16px;
 }
 
 .btn {
@@ -313,7 +309,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  position: relative;
+  width: 75%;
   margin: 8px;
   padding: 20px;
   border-radius: 20px;
@@ -322,6 +319,7 @@
 
 .category {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap
 }
 
