@@ -151,6 +151,7 @@
 .btn--solid {
   background: #f1a501;
   color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .btn--play {
@@ -159,6 +160,7 @@
   padding: 0;
   background: #df6951;
   color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 50%;
   z-index: 1;
 }
@@ -290,7 +292,7 @@
   margin-top: 16px;
 }
 
-.services {
+.services, .destinations {
   padding: 3em 0 1.5em;
 }
 
@@ -316,9 +318,10 @@
   padding: 20px;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.category {
+.category, .destinations__content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap
