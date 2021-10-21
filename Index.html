@@ -7,11 +7,12 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <title>Travel Template</title>
     
+    <!-- Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/style.css"/>
     <link rel="stylesheet" href="assets/css/responsive.css"/>
-    <!-- Icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 
   </head>
   <body>
@@ -44,7 +45,7 @@
           <div class="hero__image">
             <img src="assets/images/hero-image.png" alt=""/>
           </div>
-          <div class="hero__block">
+          <div class="hero__text">
             <h3 class="hero__tagline">best destination around the world</h3>
             <h1 class="hero__heading">Travel, enjoy<br>and live a new<br>and full live</h1>
             <p class="hero__desc">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportmen it engrossed listening. Park gate sell they west hard.</p>
@@ -93,42 +94,79 @@
         <h4 class="section__subtitle">Top Selling</h4>
         <h2 class="section__title">Top Destinations</h2>
         <div class="destinations__content">
-          <div class="card">
-            <div class="destinations__image">
-              <img src="assets/images/Rome.jpg" alt="">
-            </div>
+          <div class="card card--destinations" style="--image: url(../images/Rome.jpg);">
             <div class="destinations__desc">
               <span class="destinations__loc">Rome, Italy</span>
               <span class="destinations__price">$5,42k</span>
               <div class="destinations__time">10 Days Trip</div>
             </div>
           </div>
-          <div class="card">
-            <div class="destinations__image">
-              <img src="assets/images/Rome.jpg" alt="">
-            </div>
+          <div class="card card--destinations" style="--image: url(../images/London.jpg);">
             <div class="destinations__desc">
-              <span class="destinations__loc">Rome, Italy</span>
-              <span class="destinations__price">$5,42k</span>
-              <div class="destinations__time">10 Days Trip</div>
+              <span class="destinations__loc">London, UK</span>
+              <span class="destinations__price">$4,2k</span>
+              <div class="destinations__time">12 Days Trip</div>
             </div>
           </div>
-          <div class="card">
-            <div class="destinations__image">
-              <img src="assets/images/Rome.jpg" alt="">
-            </div>
+          <div class="card card--destinations" style="--image: url(../images/Europe.jpg);">
             <div class="destinations__desc">
-              <span class="destinations__loc">Rome, Italy</span>
-              <span class="destinations__price">$5,42k</span>
-              <div class="destinations__time">10 Days Trip</div>
+              <span class="destinations__loc">Full Europe</span>
+              <span class="destinations__price">$15k</span>
+              <div class="destinations__time">28 Days Trip</div>
             </div>
           </div>
-        </div>
       </section>
       <section class="bookings" id="bookings">
         <h4 class="section__subtitle">Easy and Fast</h4>
         <h2 class="section__title">Book Your Next Trip<br>In 3 Easy Steps</h2>
-        
+        <div class="values">
+          <div class="values__items">
+            <div class="values__icon">
+              <span class="material-icons">map</span>
+            </div>
+            <div class="values__text">
+              <strong class="values__title">Choose Destination</strong>
+              <p class="values__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, soluta rem!</p>
+            </div>
+          </div>
+          <div class="values__items">
+            <div class="values__icon values--red">
+              <span class="material-icons">payments</span>
+            </div>
+            <div class="values__text">
+              <strong class="values__title">Make Payment</strong>
+              <p class="values__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, soluta rem!</p>
+            </div>
+          </div>
+          <div class="values__items">
+            <div class="values__icon values--blue">
+              <span class="material-icons">drive_eta</span>
+            </div>
+            <div class="values__text">
+              <strong class="values__title">Reach Airport on Selected Date</strong>
+              <p class="values__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, soluta rem!</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card--booking">
+          <div class="card__image">
+            <img src="assets/images/Europe.jpg" alt="">
+          </div>
+          <div class="card__box">
+            <strong class="card__title">Trip to Europe</strong>
+            <span class="booking__date">14-29 June</span><span class="booking__user">by Robbin joseph</span>
+            <div class="card__items">
+              <span class="card__icon card__icon--rounded card__icon--small material-icons">spa</span>
+              <span class="card__icon card__icon--rounded card__icon--small material-icons">map</span>
+              <span class="card__icon card__icon--rounded card__icon--small material-icons">flight</span>
+            </div>
+            <div class="booking__items">
+              <span class="material-icons">emoji_transportation</span>
+              <span class="booking__total">24 people going</span>
+              <span class="booking__like material-icons">favorite_border</span>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="testimonials" id="testimonials">
         <h4 class="section__subtitle">TESTIMONIALS</h4>
