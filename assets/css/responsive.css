@@ -99,23 +99,8 @@
   .burger {
     display: none;
   }
-  .hero__heading {
-    font-size: 3.8em;
-  }
-  .hero__tagline {
-    font-size: 1.1em;
-  }
-  .hero__desc {
-    font-size: .9em;
-  }
   .hero__cta {
     margin-top: 24px;
-  }
-  .section__title {
-    font-size: 3em;
-  }
-  .section__subtitle {
-    font-size: 1em;
   }
   .card {
     width: calc(25% - 16px);
@@ -124,7 +109,7 @@
 
 @media (min-width: 1200px) {
   .container {
-    padding: 0 80px;
+    width: 1140px;
   }
   .navbar {
     align-items: center;
@@ -134,19 +119,19 @@
   .navbar__items {
     padding: 0 16px;
   }
-  .hero__heading {
-    font-size: 4.3em;
+
+  .hero__image {
+    position: absolute;
+    right: 0;
   }
-  .hero__tagline {
-    font-size: 1.2em;
-  }
-  .hero__desc {
-    font-size: 1em;
+  .hero__text {
+    position: absolute;
+    width: 60px;
+    left: 0;
   }
   .hero__cta {
     margin-top: 28px;
   }
-
   .btn--big {
     height: 40px;
   }
