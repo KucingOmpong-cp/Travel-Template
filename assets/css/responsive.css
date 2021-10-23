@@ -106,6 +106,9 @@
   .card {
     width: calc(25% - 16px);
   }
+  .partners__image {
+    width: calc(20% - 16px);
+  }
 }
 
 @media (min-width: 1200px) {
