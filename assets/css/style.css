@@ -527,3 +527,28 @@
   justify-content: center;
   align-items: center;
 }
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.partners__image {
+  display: flex;
+  align-items: center;
+  width: calc(20% - 16px);
+  height: 90px;
+  padding: 20px 30px;
+  margin: 0 8px;
+  border-radius: 10px;
+}
+
+.partners__image.active {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.partners__image img {
+  max-width: 100%;
+}

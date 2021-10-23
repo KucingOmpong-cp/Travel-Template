@@ -50,6 +50,7 @@
 @media (min-width: 992px) {
   .container {
     padding: 0 40px;
+    overflow: inherit;
   }
   .navbar {
     align-items: center;
@@ -122,11 +123,12 @@
 
   .hero__image {
     position: absolute;
+    width: 55%;
     right: 0;
   }
   .hero__text {
     position: absolute;
-    width: 60px;
+    width: 60%;
     left: 0;
   }
   .hero__cta {
