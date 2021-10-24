@@ -572,3 +572,31 @@
   margin-right: 5px;
   border-radius: 5px;
 }
+
+.footer__menu {
+  display: flex;
+}
+.menu__block {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3 - 16px);
+}
+
+.social__media {
+  display: flex;
+}
+
+.social__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: #f5f;
+}
+
+.social__items img {
+  height: 50%;
+}
