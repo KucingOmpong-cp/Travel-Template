@@ -587,7 +587,7 @@
   flex-direction: column;
   width: calc(100% - 32px);
   padding: 78px 120px;
-  background: url('../images/Card-Decore.svg') center;
+  background: url('../images/Card-Decore.svg') right;
   /* border-radius: 40px 10px 10px 10px; */
   border-radius: 129px 20px 20px 20px;
 }
