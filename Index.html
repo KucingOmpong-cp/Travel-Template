@@ -16,26 +16,28 @@
 
   </head>
   <body>
-    <div class="container px-1">
+    <div class="container">
       <section class="hero">
         <nav class="navbar" id="navbar">
-          <div class="navbar__logo">
-            <img src="assets/images/Logo.svg" alt="" height="24">
+          <div class="navbar__wrapper">
+            <div class="navbar__logo">
+              <img src="assets/images/Logo.svg" alt="" height="24">
+            </div>
+            <ul class="navbar__menu">
+              <li class="navbar__items"><a class="navbar__items-link" href="#">Destinations</a></li>
+              <li class="navbar__items"><a class="navbar__items-link" href="#">Hotels</a></li>
+              <li class="navbar__items"><a class="navbar__items-link" href="#">Flights</a></li>
+              <li class="navbar__items"><a class="navbar__items-link" href="#">Bookings</a></li>
+            </ul>
+            <div class="navbar__cta">
+              <a class="btn w-100" href="#">Login</a>
+              <a href="#" class="btn btn--border w-100">Sign Up</a>
+            </div>
+            <select class="dropdown">
+              <option value="">en</option>
+              <option value="">id</option>
+            </select>
           </div>
-          <ul class="navbar__menu">
-            <li class="navbar__items"><a class="navbar__items-link" href="#">Destinations</a></li>
-            <li class="navbar__items"><a class="navbar__items-link" href="#">Hotels</a></li>
-            <li class="navbar__items"><a class="navbar__items-link" href="#">Flights</a></li>
-            <li class="navbar__items"><a class="navbar__items-link" href="#">Bookings</a></li>
-          </ul>
-          <div class="navbar__cta">
-            <a class="btn w-100" href="#">Login</a>
-            <a href="#" class="btn btn--border w-100">Sign Up</a>
-          </div>
-          <select class="dropdown">
-            <option value="">en</option>
-            <option value="">id</option>
-          </select>
           <div class="burger" id="burger" onclick="toggleActive()">
             <div class="burger__items">
             </div>
@@ -150,22 +152,24 @@
             </div>
           </div>
         </div>
-        <div class="card card--booking">
-          <div class="card__image">
-            <img src="assets/images/Europe.jpg" alt="">
-          </div>
-          <div class="card__box">
-            <strong class="card__title">Trip to Europe</strong>
-            <span class="booking__date">14-29 June</span><span class="booking__user">by Robbin joseph</span>
-            <div class="card__items">
-              <span class="card__icon card__icon--rounded card__icon--small material-icons">spa</span>
-              <span class="card__icon card__icon--rounded card__icon--small material-icons">map</span>
-              <span class="card__icon card__icon--rounded card__icon--small material-icons">flight</span>
+        <div class="booking__journey">
+          <div class="card card--booking">
+            <div class="card__image">
+              <img src="assets/images/Europe.jpg" alt="">
             </div>
-            <div class="booking__items">
-              <span class="material-icons">emoji_transportation</span>
-              <span class="booking__total">24 people going</span>
-              <span class="booking__like material-icons">favorite_border</span>
+            <div class="card__box">
+              <strong class="card__title">Trip to Europe</strong>
+              <span class="booking__date">14-29 June</span><span class="booking__user">by Robbin joseph</span>
+              <div class="card__items">
+                <span class="card__icon card__icon--rounded card__icon--small material-icons">spa</span>
+                <span class="card__icon card__icon--rounded card__icon--small material-icons">map</span>
+                <span class="card__icon card__icon--rounded card__icon--small material-icons">flight</span>
+              </div>
+              <div class="booking__items">
+                <span class="material-icons">emoji_transportation</span>
+                <span class="booking__total">24 people going</span>
+                <span class="booking__like material-icons">favorite_border</span>
+              </div>
             </div>
           </div>
         </div>
@@ -229,14 +233,14 @@
         <div class="subscribes__box text-center">
           <strong class="subscribes__title">Subscribe to get information, latest news and other interesting offers about Cobham</strong>
           <div class="subscribes__cta">
-            <input type="text" class="subscribes__input">
+            <input type="text" class="subscribes__input" placeholder="Your Email">
             <button type="submit" class="btn btn--submit">Subscribe</button>
           </div>
         </div>
       </section>
       <section class="footer">
         <div class="footer__company">
-          <img src="assets/images/Jadoo.png" alt="">
+          <img class="company__image" src="assets/images/Jadoo.png" alt="">
           <p class="footer__detail">Book your trip in minute, get full Control for much together.</p>
         </div>
         <div class="footer__menu">
@@ -264,7 +268,7 @@
             <a href="" class="social__items">
               <img src="assets/images/facebook-f-brands.svg" alt="">
             </a>
-            <a href="" class="social__items">
+            <a href="" class="social__items instagram">
               <img src="assets/images/Instagram-brands.svg" alt="">
             </a>
             <a href="" class="social__items">
