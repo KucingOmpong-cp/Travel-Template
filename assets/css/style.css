@@ -569,17 +569,20 @@
   margin-top: 6px;
 }
 
+.testimonials {
+  display: block;
+  height: fit-content;
+}
+
 .testimonials__title {
   padding: 0 8px;
 }
 
 .testimonials__content {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  display: block;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 280px;
 }
 
 .testimonials__desc {
