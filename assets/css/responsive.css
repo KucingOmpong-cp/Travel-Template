@@ -122,13 +122,40 @@
   .card--booking {
     width: 60%;
   }
+  .booking__value {
+    width: 50%;
+  }
+  .booking__journey {
+    width: 50%;
+  }
   .partners__image {
     width: calc(20% - 16px);
+  }
+  .subscribes{
+    padding: 78px 120px;
+    border-radius: 129px 20px 20px 20px;
+  }
+  .subscribes__cta {
+    width: 60%;
+  }
+  .subscribes__title {
+    margin-bottom: 48px;
+  }
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__company, .footer__social {
+    width: 25%;
+  }
+  .footer__menu {
+    width: calc(50% - 32px);
   }
 }
 
 @media (min-width: 1200px) {
   .container {
+    position: relative;
     width: 1140px;
   }
   .navbar {
