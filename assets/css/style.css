@@ -33,16 +33,6 @@
   margin-right: 1em !important;
 }
 
-.px-1 {
-  padding-left: .5em;
-  padding-right: .5em;
-}
-
-.px-2 {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
 .text-center {
   text-align: center !important;
 }
@@ -58,7 +48,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 44px 8px 0 8px;
+  padding: 44px 16px 0 16px;
   height: 100vh;
 }
 
@@ -66,7 +56,7 @@
   content: url('../images/Decore.svg');
   position: absolute;
   width: 100%;
-  right: 0;
+  right: -8px;
   top: -12%;
   z-index: 0;
 }
@@ -84,6 +74,11 @@
   box-sizing: border-box;
   z-index: 7;
   transition: 0.5s;
+}
+
+.navbar__wrapper {
+  display: flex;
+  width: 100vw;
 }
 
 .navbar__logo {
@@ -316,8 +311,8 @@
   margin-top: 16px;
 }
 
-.services, .destinations, .bookings {
-  padding: 3em 0 1.5em;
+.services, .destinations, .bookings, .testimonials {
+  padding: 3em 8px 1.5em;
 }
 
 .section__title {
@@ -480,10 +475,11 @@
 
 .bookings {
   display: flex;
+  flex-direction: column;
 }
 
 .booking__value {
-  width: 50%;
+  width: 100%;
   padding: 0 8px;
 }
 
@@ -491,7 +487,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
 }
 
 .values {
@@ -557,7 +553,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 100px 0 80px;
+  padding: 100px 8px 80px;
 }
 
 .partners__image {
@@ -577,7 +573,7 @@
 }
 
 .subscribes {
-  padding: 20px 0 80px 0;
+  padding: 20px 16px 80px 16px;
 }
 
 .subscribes__box {
@@ -585,24 +581,42 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: calc(100% - 32px);
-  padding: 78px 120px;
+  position: relative;
+  width: calc(100% - 16px);
+  padding: 40px 20px;
   background: url('../images/Card-Decore.svg') right;
-  /* border-radius: 40px 10px 10px 10px; */
-  border-radius: 129px 20px 20px 20px;
+  border-radius: 40px 10px 10px 10px;
+}
+
+.subscribes__decor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: -14px;
+  right: -12px;
+  background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+  border-radius: 50%;
+}
+
+.subscribes__decor img {
+  height: 70%;
+  padding-left: 2px;
 }
 
 .subscribes__title {
   font-size: calc(13px + (32 - 13) * ((100vw - 300px) / (1440 - 300)));
   font-weight: 500;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .subscribes__cta {
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 60%;
+  width: 100%;
 }
 
 .subscribes__input {
@@ -628,12 +642,12 @@
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  padding: 40px 0;
+  flex-direction: column;
+  padding: 40px 16px;
 }
 
 .footer__company {
-  width: 25%;
+  width: 100%;
 }
 
 .company__image {
@@ -648,7 +662,7 @@
 
 .footer__menu {
   display: flex;
-  width: calc(50% - 32px);
+  width: 100%;
 }
 .menu__block {
   display: flex;
@@ -671,7 +685,7 @@
 }
 
 .footer__social {
-  width: 25%;
+  width: 100%;
   padding-top: 10px;
 }
 
