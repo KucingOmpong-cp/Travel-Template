@@ -122,18 +122,36 @@
   .card--booking {
     width: 60%;
   }
+  .bookings {
+    flex-direction: row;
+  }
   .booking__value {
     width: 50%;
   }
   .booking__journey {
     width: 50%;
   }
+  .testimonials {
+    display: flex;
+  }
+  .testimonials__title {
+    width: 50%;
+  }
+  .testimonials__content {
+    width: 50%;
+  }
   .partners__image {
     width: calc(20% - 16px);
   }
-  .subscribes{
+  .subscribes__box{
     padding: 78px 120px;
     border-radius: 129px 20px 20px 20px;
+  }
+  .subscribes__decor {
+    width: 45px;
+    height: 45px;
+    top: -16px;
+    right: -16px;
   }
   .subscribes__cta {
     width: 60%;
@@ -188,5 +206,11 @@
   }
   .btn--play::after {
     left: 48px;
+  }
+  .subscribes__decor {
+    width: 60px;
+    height: 60px;
+    top: -22px;
+    right: -22px;
   }
 }
