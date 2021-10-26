@@ -586,18 +586,22 @@
 }
 
 .testimonials__desc {
-  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1440 - 300)));
   margin-bottom: 16px;
 }
 
 .testimonials__user {
-  font-size: 18px;
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1440 - 300)));
   font-weight: 500;
   margin-bottom: 2px;
 }
 
 .testimonials__loc {
-  font-size: 14px;
+  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1440 - 300)));
 }
 
 .partners {
