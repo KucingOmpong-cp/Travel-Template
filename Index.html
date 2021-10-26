@@ -16,6 +16,7 @@
 
   </head>
   <body>
+    <a class="btn btn--home" id="home" href="#"><span class="material-icons">home</span></a>
     <div class="container">
       <section class="hero">
         <nav class="navbar" id="navbar">
@@ -179,43 +180,46 @@
           <h4 class="section__subtitle">TESTIMONIALS</h4>
           <h2 class="section__title">What People Say<br>About Us.</h2>
         </div>
+        <input type="radio" name="slider" id="item-1">
+        <input type="radio" name="slider" id="item-2" checked>
+        <input type="radio" name="slider" id="item-3">
         <div class="testimonials__content">
-          <div class="card card--slider">
+          <label class="card card--slider" for="item-1" id="testi-1">
             <div class="card__image card__photo">
               <img src="assets/images/Profile.jpg" alt="">
             </div>
             <div class="card__box">
-              <blockquote class="testimonials__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ducimus ut totam sunt corrupti voluptatum perspiciatis quasi consectetur magni quo?</blockquote>
+              <blockquote class="testimonials__desc">On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.</blockquote>
             </div>
             <div class="testimonials__footer">
               <strong class="testimonials__user">Julie Martin</strong>
               <p class="testimonials__loc">Texas, USA</p>
             </div>
-          </div>
-          <div class="card card--slider active">
+          </label>
+          <label class="card card--slider active"  for="item-2" id="testi-2">
             <div class="card__image card__photo">
-              <img src="assets/images/Profile.jpg" alt="">
+              <img src="assets/images/Profile2.jpg" alt="">
+            </div>
+            <div class="card__box">
+              <blockquote class="testimonials__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ducimus totam facere laudantium ad harum veritatis, quas optio architecto minus nemo accusantium quis rerum maiores! Vel ratione, quas quaerat consectetur reprehenderit culpa repudiandae tempore, aliquid, earum nihil tempora eveniet facilis!</blockquote>
+            </div>
+            <div class="testimonials__footer">
+              <strong class="testimonials__user">Ian Dooley</strong>
+              <p class="testimonials__loc">New York, USA</p>
+            </div>
+          </label>
+          <label class="card card--slider" for="item-3" id="testi-3">
+            <div class="card__image card__photo">
+              <img src="assets/images/Profile3.jpg" alt="">
             </div>
             <div class="card__box">
               <blockquote class="testimonials__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ducimus ut totam sunt corrupti voluptatum perspiciatis quasi consectetur magni quo?</blockquote>
             </div>
             <div class="testimonials__footer">
-              <strong class="testimonials__user">Julie Martin</strong>
-              <p class="testimonials__loc">Texas, USA</p>
+              <strong class="testimonials__user">Chris Thomas</strong>
+              <p class="testimonials__loc">CEO of Red Button</p>
             </div>
-          </div>
-          <div class="card card--slider">
-            <div class="card__image card__photo">
-              <img src="assets/images/Profile.jpg" alt="">
-            </div>
-            <div class="card__box">
-              <blockquote class="testimonials__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ducimus ut totam sunt corrupti voluptatum perspiciatis quasi consectetur magni quo?</blockquote>
-            </div>
-            <div class="testimonials__footer">
-              <strong class="testimonials__user">Julie Martin</strong>
-              <p class="testimonials__loc">Texas, USA</p>
-            </div>
-          </div>
+          </label>
         </div>
       </section>
       <div class="partners">
