@@ -835,3 +835,16 @@ input[type=radio] {
   text-decoration: none;
   margin-right: 5px;
 }
+
+.thanks {
+  padding: 10px 0 40px;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1440 - 300)));
+}
+
+.thanks div:first-child {
+  margin-bottom: 8px;
+}
+
+.thanks__link {
+  text-decoration: none;
+}

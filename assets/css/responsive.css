@@ -180,6 +180,9 @@
   .footer__menu {
     width: calc(50% - 32px);
   }
+  .thanks {
+    padding: 20px 0 60px;
+  }
 }
 
 @media (min-width: 1200px) {
